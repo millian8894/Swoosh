@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225D93581F89F0C200644665 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225D93571F89F0C200644665 /* LeagueVC.swift */; };
+		225D935A1F89F10400644665 /* StyleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225D93591F89F10400644665 /* StyleVC.swift */; };
 		2282853A1F87518600F2194D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228285391F87518600F2194D /* AppDelegate.swift */; };
-		2282853C1F87518600F2194D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2282853B1F87518600F2194D /* ViewController.swift */; };
+		2282853C1F87518600F2194D /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2282853B1F87518600F2194D /* WelcomeVC.swift */; };
 		2282853F1F87518600F2194D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2282853D1F87518600F2194D /* Main.storyboard */; };
 		228285411F87518600F2194D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228285401F87518600F2194D /* Assets.xcassets */; };
 		228285441F87518600F2194D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228285421F87518600F2194D /* LaunchScreen.storyboard */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		225D93571F89F0C200644665 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
+		225D93591F89F10400644665 /* StyleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleVC.swift; sourceTree = "<group>"; };
 		228285361F87518600F2194D /* Swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228285391F87518600F2194D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2282853B1F87518600F2194D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2282853B1F87518600F2194D /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		2282853E1F87518600F2194D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		228285401F87518600F2194D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		228285431F87518600F2194D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +78,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		225D935B1F89F10D00644665 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				225D93591F89F10400644665 /* StyleVC.swift */,
+				225D93571F89F0C200644665 /* LeagueVC.swift */,
+				2282853B1F87518600F2194D /* WelcomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		2282852D1F87518600F2194D = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +111,8 @@
 		228285381F87518600F2194D /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				225D935B1F89F10D00644665 /* Controller */,
 				228285391F87518600F2194D /* AppDelegate.swift */,
-				2282853B1F87518600F2194D /* ViewController.swift */,
 				2282853D1F87518600F2194D /* Main.storyboard */,
 				228285401F87518600F2194D /* Assets.xcassets */,
 				228285421F87518600F2194D /* LaunchScreen.storyboard */,
@@ -259,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2282853C1F87518600F2194D /* ViewController.swift in Sources */,
+				2282853C1F87518600F2194D /* WelcomeVC.swift in Sources */,
 				2282853A1F87518600F2194D /* AppDelegate.swift in Sources */,
+				225D935A1F89F10400644665 /* StyleVC.swift in Sources */,
+				225D93581F89F0C200644665 /* LeagueVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
