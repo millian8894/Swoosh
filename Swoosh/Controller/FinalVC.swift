@@ -1,5 +1,5 @@
 //
-//  StyleVC.swift
+//  FinalVC.swift
 //  Swoosh
 //
 //  Created by MAXIMILLIAN on 10/8/17.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class StyleVC: UIViewController {
-    
-    var play: Play!
+class FinalVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(play.VcLeague)
 
         // Do any additional setup after loading the view.
     }

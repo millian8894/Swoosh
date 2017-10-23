@@ -10,6 +10,9 @@ import UIKit
 
 class WelcomeVC: UIViewController {
 
+    @IBOutlet weak var bgimg: UIImageView!
+    @IBOutlet weak var swooshlogo: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
